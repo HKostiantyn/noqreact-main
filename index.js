@@ -22,6 +22,7 @@ import { WebView } from "react-native-webview";
 import ContactsList from "./Contacts";
 import Contacts, { addContact, updateContact } from "react-native-contacts";
 import axios from "axios";
+import App from './App';
 
 import {
   getFormatContact,
@@ -50,6 +51,8 @@ axios.defaults.withCredentials = true;
 const client = axios.create({
   baseURL: BASE_URL,
 });
+
+AppRegistry.registerComponent(appName, () => App);
 
 const Index = () => {
   const [contactsData, setContactsData] = useState([]);

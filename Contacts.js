@@ -58,6 +58,7 @@ const ContactsList = ({
     Keyboard.dismiss();
     if (!username) {
       return Alert.alert("Error!", "Please enter email address");
+      
     }
     if (!validateEmail(username)) {
       return Alert.alert("Error!", "Please enter valid email address");
@@ -80,7 +81,7 @@ const ContactsList = ({
           save(res);
           setIsLoader(false);
           setUsername(null);
-          // Alert.alert("Success!", "Contact saved successfully.");
+          Alert.alert("Success!", "Contact saved successfully.");
 
           console.log("Contact Success", res.data);
         })
@@ -91,6 +92,7 @@ const ContactsList = ({
     } else {
       setIsLoader(false);
       Alert.alert("Error!", "Not able to fetch contacts");
+      
     }
   };
 

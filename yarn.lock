@@ -2803,6 +2803,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-native-push-notification@npm:^8":
+  version: 8.1.4
+  resolution: "@types/react-native-push-notification@npm:8.1.4"
+  checksum: 10c0/cd5f3f25baa16f8c6e68030b21d62b1f928b6555cbcfff23b74655f72d7aeb4d473e873358dc5a771e3d3745e64d90ec9fe34dc46d427765879e5efec8c86a08
+  languageName: node
+  linkType: hard
+
 "@types/react-test-renderer@npm:^18.0.0":
   version: 18.0.7
   resolution: "@types/react-test-renderer@npm:18.0.7"
@@ -3013,6 +3020,7 @@ __metadata:
     "@react-navigation/native": "npm:^6.1.9"
     "@react-navigation/native-stack": "npm:^6.9.17"
     "@types/react": "npm:^18.2.6"
+    "@types/react-native-push-notification": "npm:^8"
     "@types/react-test-renderer": "npm:^18.0.0"
     axios: "npm:^1.6.7"
     babel-jest: "npm:^29.6.3"
@@ -3025,6 +3033,7 @@ __metadata:
     react-native-device-info: "npm:^11.1.0"
     react-native-modal: "npm:^13.0.1"
     react-native-permissions: "npm:^4.1.5"
+    react-native-push-notification: "npm:^8.1.1"
     react-native-safe-area-context: "npm:^4.9.0"
     react-native-screens: "npm:^3.29.0"
     react-native-webview: "npm:^13.7.1"
@@ -8049,6 +8058,16 @@ __metadata:
     react-native-windows:
       optional: true
   checksum: 10c0/93dd8ec9c4f5259b959fe0ec560c95c10518e893358b53acf9a380dca7d58e541274bf25cfe83e09c769b260fbce1361fa4497488b6bbcad499d8fb2cdefb5c0
+  languageName: node
+  linkType: hard
+
+"react-native-push-notification@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "react-native-push-notification@npm:8.1.1"
+  peerDependencies:
+    "@react-native-community/push-notification-ios": ^1.10.1
+    react-native: ">=0.33"
+  checksum: 10c0/d215a17ce815c65e6a77b1b61ce4e929deead8b969a5133baa5e2b903381b822422d9bbba1cd2c57e36e8aa9a1789c788e47be9fcbc86f6315c6a9de64398c40
   languageName: node
   linkType: hard
 
