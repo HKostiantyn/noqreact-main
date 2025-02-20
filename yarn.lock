@@ -2098,6 +2098,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@msml/react-native-notification-badge@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@msml/react-native-notification-badge@npm:0.1.6"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/92ea8842ce9f694991145331329a112722324eb4aa2b43a2db4cabae65f6575d45bdbe0b78c0adeedeefa2533c4bce548a5f0f5264bd047d63c018173e1aafcd
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -2350,6 +2360,18 @@ __metadata:
   bin:
     react-native: build/bin.js
   checksum: 10c0/b5924bdffe252ec59af43fbdce3f00d51ff6d07d46bc3fefcd5ab870918cef107b0c2ce8475d2f6313311b24c3774c11ebbc50b32853668c12718bb24ed616e8
+  languageName: node
+  linkType: hard
+
+"@react-native-community/push-notification-ios@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@react-native-community/push-notification-ios@npm:1.11.0"
+  dependencies:
+    invariant: "npm:^2.2.4"
+  peerDependencies:
+    react: ">=16.6.3"
+    react-native: ">=0.58.4"
+  checksum: 10c0/dda1052069b196eed2b23bd843f4824ff53e54978b625e016a78203978eae75af0779c398dbf324ae8c82cfd409b781a1273d5f8b05a77249457810c7756fe84
   languageName: node
   linkType: hard
 
@@ -3003,44 +3025,6 @@ __metadata:
   checksum: 10c0/8209c937cb39119f44eb63cf90c0b73e7c754209a6411c707be08e50e29ee81356dca1a848a405c8bdeebfe2f5e4f831ad310ae1689eeef65e7445c090c6657d
   languageName: node
   linkType: hard
-
-"NoqNoqReact@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "NoqNoqReact@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@babel/preset-env": "npm:^7.20.0"
-    "@babel/runtime": "npm:^7.20.0"
-    "@react-native-async-storage/async-storage": "npm:^1.23.1"
-    "@react-native-picker/picker": "npm:^2.6.1"
-    "@react-native/babel-preset": "npm:0.73.20"
-    "@react-native/eslint-config": "npm:0.73.2"
-    "@react-native/metro-config": "npm:0.73.4"
-    "@react-native/typescript-config": "npm:0.73.1"
-    "@react-navigation/native": "npm:^6.1.9"
-    "@react-navigation/native-stack": "npm:^6.9.17"
-    "@types/react": "npm:^18.2.6"
-    "@types/react-native-push-notification": "npm:^8"
-    "@types/react-test-renderer": "npm:^18.0.0"
-    axios: "npm:^1.6.7"
-    babel-jest: "npm:^29.6.3"
-    eslint: "npm:^8.19.0"
-    jest: "npm:^29.6.3"
-    prettier: "npm:2.8.8"
-    react: "npm:18.2.0"
-    react-native: "npm:0.73.3"
-    react-native-contacts: "npm:^7.0.8"
-    react-native-device-info: "npm:^11.1.0"
-    react-native-modal: "npm:^13.0.1"
-    react-native-permissions: "npm:^4.1.5"
-    react-native-push-notification: "npm:^8.1.1"
-    react-native-safe-area-context: "npm:^4.9.0"
-    react-native-screens: "npm:^3.29.0"
-    react-native-webview: "npm:^13.7.1"
-    react-test-renderer: "npm:18.2.0"
-    typescript: "npm:5.0.4"
-  languageName: unknown
-  linkType: soft
 
 "abbrev@npm:^3.0.0":
   version: 3.0.0
@@ -3871,6 +3855,46 @@ __metadata:
   checksum: 10c0/4955c8f7daafca8ae7081d672e4bd89d553bd5782b5846d5a7e05effe93c2f15f7e9c0cb46f341b59f579a39fcf436241ff79594899d75d5f3460c03d607fe9e
   languageName: node
   linkType: hard
+
+"com.apple.noqreact@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "com.apple.noqreact@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.20.0"
+    "@babel/preset-env": "npm:^7.20.0"
+    "@babel/runtime": "npm:^7.20.0"
+    "@msml/react-native-notification-badge": "npm:^0.1.6"
+    "@react-native-async-storage/async-storage": "npm:^1.23.1"
+    "@react-native-community/push-notification-ios": "npm:^1.11.0"
+    "@react-native-picker/picker": "npm:^2.6.1"
+    "@react-native/babel-preset": "npm:0.73.20"
+    "@react-native/eslint-config": "npm:0.73.2"
+    "@react-native/metro-config": "npm:0.73.4"
+    "@react-native/typescript-config": "npm:0.73.1"
+    "@react-navigation/native": "npm:^6.1.9"
+    "@react-navigation/native-stack": "npm:^6.9.17"
+    "@types/react": "npm:^18.2.6"
+    "@types/react-native-push-notification": "npm:^8"
+    "@types/react-test-renderer": "npm:^18.0.0"
+    axios: "npm:^1.6.7"
+    babel-jest: "npm:^29.6.3"
+    eslint: "npm:^8.19.0"
+    jest: "npm:^29.6.3"
+    prettier: "npm:2.8.8"
+    react: "npm:18.2.0"
+    react-native: "npm:0.73.3"
+    react-native-contacts: "npm:^7.0.8"
+    react-native-device-info: "npm:^11.1.0"
+    react-native-modal: "npm:^13.0.1"
+    react-native-permissions: "npm:^4.1.5"
+    react-native-push-notification: "npm:^8.1.1"
+    react-native-safe-area-context: "npm:^4.9.0"
+    react-native-screens: "npm:^3.29.0"
+    react-native-webview: "npm:^13.7.1"
+    react-test-renderer: "npm:18.2.0"
+    typescript: "npm:5.0.4"
+  languageName: unknown
+  linkType: soft
 
 "combined-stream@npm:^1.0.8":
   version: 1.0.8

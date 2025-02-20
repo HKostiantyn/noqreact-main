@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783855616303",
+    "project_id": "noqreact-main",
+    "storage_bucket": "noqreact-main.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783855616303:android:8008ac321236b7318fa1da",
+        "android_client_info": {
+          "package_name": "com.noqnoqreact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL3rBVJX6rOOP5M89Ts-9buIbfEpUt3vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

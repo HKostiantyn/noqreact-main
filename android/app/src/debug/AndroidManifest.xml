@@ -5,5 +5,14 @@
     <application
         android:usesCleartextTraffic="true"
         tools:targetApi="28"
-        tools:ignore="GoogleAppIndexingWarning"/>
+        tools:ignore="GoogleAppIndexingWarning">
+    <receiver
+        android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+        android:exported="true"
+        tools:node="merge"> <!-- Use "merge" instead of "replace" -->
+        <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+        </intent-filter>
+    </receiver>
+    </application>
 </manifest>
